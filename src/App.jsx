@@ -9,7 +9,6 @@ import Nav from './components/Nav';
 import Hero from './components/Hero';
 import Model3D from './components/Model3D';
 import Gallery from './components/Gallery';
-import Witnesses from './components/Witnesses';
 import RoastMachine from './components/RoastMachine';
 import Awards from './components/Awards';
 import ReportCard from './components/ReportCard';
@@ -79,10 +78,7 @@ export function App() {
         {/* 3. Saboot Gallery (Photos) */}
         <Gallery photos={config.photos} />
 
-        {/* 4. Gawaahon Ke Bayaan (Witness Statements) */}
-        <Witnesses witnesses={config.witnesses} />
-
-        {/* 5. Roast Machine 3000 */}
+        {/* 4. Roast Machine 3000 */}
         <RoastMachine roasts={config.roasts} targetName={config.name} />
 
         {/* 6. Fake Awards & Trophies */}

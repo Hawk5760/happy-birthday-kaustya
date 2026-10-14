@@ -28,7 +28,6 @@ export function Nav({ voiceNotesCount = 0 }) {
     { href: '#hero', label: 'Court' },
     { href: '#model3d', label: '3D Avataar 🕺' },
     { href: '#gallery', label: 'Saboot' },
-    { href: '#witnesses', label: 'Gawah' },
     { href: '#roast', label: 'Roast 3000' },
     { href: '#awards', label: 'Awards' },
     { href: '#report', label: 'Report Card' },
