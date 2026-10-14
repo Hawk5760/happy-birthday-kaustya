@@ -36,7 +36,7 @@ export function Nav({ voiceNotesCount = 0 }) {
     ...(voiceNotesCount > 0 ? [{ href: '#voice', label: 'Voice Notes' }] : []),
     { href: '#gift', label: 'Gift Claim' },
     { href: '#secret', label: 'Secret Vault' },
-    { href: '#verdict', label: 'Faisla' }
+    { href: '#birthday', label: 'Birthday 🎂' }
   ];
 
   return (

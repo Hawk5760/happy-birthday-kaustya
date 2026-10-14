@@ -26,8 +26,8 @@ export const config = {
   // ==========================================
   // 🔐 SECRET VAULT (EDIT ME)
   // ==========================================
-  secretPassword: "partykabdega", // EDIT ME: Secret password to unlock the emotional letter (case-insensitive)
-  secretHint: "Hint: Wo sawaal jo har dost isse roz puchta hai (p _ _ _ _ k _ _ d _ _ _)",
+  secretPassword: "choti luli", // EDIT ME: Secret password to unlock the emotional letter (case-insensitive)
+  secretHint: "Hint: Kaustya ka sabse bada sach 😉 (c _ _ _ _   l _ _ _)",
 
   // 💌 HEARTFELT LETTER (Appears only after typing the secret password)
   secretMessage: [

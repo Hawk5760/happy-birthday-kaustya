@@ -110,7 +110,7 @@ export function App() {
           secretHint={config.secretHint}
         />
 
-        {/* 12. Final Faisla (Court Verdict) */}
+        {/* 12. Happy Birthday Celebration */}
         <Verdict config={config} />
       </main>
 

@@ -15,10 +15,17 @@ export function SecretPage({ secretPassword, secretMessage, secretHint }) {
 
   const handleUnlock = (e) => {
     e.preventDefault();
-    const cleanEntered = enteredPassword.trim().toLowerCase();
-    const cleanSecret = (secretPassword || 'partykabdega').trim().toLowerCase();
+    const cleanEntered = enteredPassword.trim().toLowerCase().replace(/\s+/g, ' ');
+    const noSpaceEntered = cleanEntered.replace(/\s+/g, '');
+    const cleanSecret = (secretPassword || 'choti luli').trim().toLowerCase().replace(/\s+/g, ' ');
+    const noSpaceSecret = cleanSecret.replace(/\s+/g, '');
 
-    if (cleanEntered === cleanSecret) {
+    if (
+      cleanEntered === cleanSecret ||
+      noSpaceEntered === noSpaceSecret ||
+      cleanEntered === 'choti luli' ||
+      noSpaceEntered === 'chotiluli'
+    ) {
       setIsUnlocked(true);
       setErrorMessage('');
       fireCelebration();
